@@ -79,7 +79,12 @@ hr.star-primary:after {
 }
 
 .img-centered {
-    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
 }
 
 header {
@@ -331,6 +336,14 @@ form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
 
+section.tout form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #ccc;
+}
+
+section.tout form .floating-label-form-group {
+    border-top: 1px solid #ccc;
+}
+
 footer {
     color: #fff;
 }
@@ -464,7 +477,7 @@ footer .footer-below {
 
 header img.profile-img {
     max-width: 240px;
-    border-radius: 50%;
+    border-radius: 33%;
     border: 0.4em solid rgba(255, 255, 255, 0.75);
 }
 
